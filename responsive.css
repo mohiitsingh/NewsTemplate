@@ -1,4 +1,38 @@
 
+@media screen and (max-width: 1024px) {
+    .container2{
+        /* flex-direction: column; */
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .item{
+        width: 80%;
+    }
+
+    .item div{
+        gap: 6rem;
+        /* left: 0.3rem; */
+    }
+
+    .item div a{
+        padding: 1rem 2rem;
+    }
+
+    .item div h6{
+        font-size: 1.8rem;
+    }
+
+    .item div a{
+        padding: 0.8rem 1.6rem;
+    }
+
+    .item div p{
+        font-size: 1.2rem;
+    }
+
+}
+
 @media screen and (max-width:768px ) {
     
     .banner{
@@ -59,6 +93,14 @@
         width: 60%;
     }
 
+    .item div{
+        gap: 3rem;
+    }
+
+    .item div h6{
+        font-size: 1.5rem;
+    }
+
 }
 
 @media screen and (max-width: 500px) {
@@ -83,6 +125,24 @@
 
     .text-div a{
         padding: 0.7rem;
+    }
+
+    .item div{
+        gap: 1rem;
+        bottom: 1rem;
+        left: 10px;
+    }
+
+    .item div a{
+        padding: 0.3rem 0.6rem;
+    }
+
+    .item div p{
+        font-size: 0.67rem;
+    }
+
+    .item div h6{
+        font-size: 0.8rem;
     }
     
 }
