@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:400,400i,500,600,700,800display=swap");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: "Rubik", sans-serif;
+}
+
+.container{
+    height: auto;
+    /* background-color: yellow; */
+    background-color: #201654;
+    width: 100%;
+    overflow-x: hidden;
+    padding-bottom: 5rem;
+}
+
+
+/* banner */
+.banner{
+    width: 100%;
+    height: 78vh;
+    /* background-color: #201654; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.banner-1{
+    width: 50%;
+    /* background-color: aqua; */
+    height: 100%;
+}
+
+.banner-2{
+    height: 100%;
+}
+
+.img-div{
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100%;
+    /* background-color: yellow; */
+}
+
+.img-div img{
+    width: 80%;
+    height: 70%;
+}
+
+.banner-2{
+    width: 50%;
+    height: 100%;
+}
+
+.text-div{
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    /* background-color: aliceblue; */
+    height: 50%;
+    transform: translateY(50%);
+    padding: 1rem;
+}
+
+.text-div h2{
+    /* padding: 1rem; */
+    font-size: 2rem;
+    /* text-align: ; */
+    margin-bottom: 1rem;
+}
+
+.text-div p{
+    /* font-size: 1.1rem; */
+    margin-bottom: 3rem;
+}
+
+.text-div a{
+    padding: 1rem 1.2rem;
+    background-color: #4a37ab;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+}
+
+.text-div a:hover{
+    border: 1px solid white;
+    background-color: #201654;
+}
+
+
+/* *********** items ********************8 */
+.items{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    /* background-color: red; */
+    margin: 0 auto;
+}
+
+.card{
+    width: 24%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+}
+
+
+
+.card_img img{
+    width: 100%;
+    height: 70%;
+}
+
+.card_details {
+    /* background-color: yellow; */
+    padding-top: 1rem;
+}
+
+.card_details h6 a{
+    color:  white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* ************************ item ***********************88 */
+.container2 {
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    /* background-color: yellow; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.item{
+    width: 24%;
+    height: 100%;
+    /* background-color: red; */
+    margin: 0 auto;
+}
+
+.item img{
+    width: 100%;
+}
